@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Momiji — AI companions, tools and little worlds</title>
+<desc id="desc">An autumn maple leaf in warm coral and amber, with the name Momiji on a light background.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2=".4"><stop stop-color="#FBF6EF"/><stop offset="1" stop-color="#F3E6DA"/></linearGradient>
+  <linearGradient id="maple" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#F4B679"/><stop offset=".48" stop-color="#E37464"/><stop offset="1" stop-color="#A93E57"/></linearGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#BE8070" opacity=".24"/></pattern>
+  <clipPath id="clip"><rect width="1200" height="360" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect x="740" width="460" height="360" fill="url(#dots)"/>
+  <circle cx="948" cy="179" r="224" fill="none" stroke="#BE8070" opacity=".16"/>
+  <circle cx="948" cy="179" r="171" fill="none" stroke="#BE8070" opacity=".25"/>
+  <circle cx="948" cy="179" r="121" fill="#BE8070" opacity=".07"/>
+  <path d="M714 360C832 288 1054 384 1200 268" fill="none" stroke="#BE8070" opacity=".3"/>
+  <path d="M754 360C890 320 1040 393 1200 308" fill="none" stroke="#BE8070" opacity=".15"/>
+  <g transform="translate(951 173) rotate(-16) scale(.98)">
+    <path d="M0-130 22-76 49-94 48-45 88-62 77-18 130-25 91 20 105 45 41 54 36 100 8 83 4 142-5 142-9 83-37 100-42 54-104 45-91 20-130-25-77-18-88-62-48-45-49-94-22-76Z" fill="url(#maple)"/>
+    <g fill="none" stroke="#FFE2B4" stroke-width="1.25" opacity=".46" stroke-linecap="round">
+      <path d="M0 136V-108M0 45 70-36M0 45-70-36M0 45 92 30M0 45-92 30M0 4 36-52M0 4-36-52"/>
+    </g>
+  </g>
+  <path d="M0-130 22-76 49-94 48-45 88-62 77-18 130-25 91 20 105 45 41 54 36 100 8 83 4 142-5 142-9 83-37 100-42 54-104 45-91 20-130-25-77-18-88-62-48-45-49-94-22-76Z" transform="translate(795 67) rotate(22) scale(.13)" fill="#A63F43" opacity=".55"/>
+  <path d="M0-130 22-76 49-94 48-45 88-62 77-18 130-25 91 20 105 45 41 54 36 100 8 83 4 142-5 142-9 83-37 100-42 54-104 45-91 20-130-25-77-18-88-62-48-45-49-94-22-76Z" transform="translate(1129 273) rotate(32) scale(.2)" fill="#D97E67" opacity=".7"/>
+  <circle cx="1102" cy="62" r="3" fill="#A63F43" opacity=".75"/>
+  <path d="M800 274v12m-6-6h12" stroke="#A63F43" opacity=".5"/>
+  <g font-family="'Segoe UI',Arial,sans-serif">
+    <rect x="56" y="51" width="7" height="7" rx="2" fill="#A63F43"/>
+    <text x="76" y="60" font-size="14" letter-spacing="3" fill="#776062">MOMIJISAN / PERSONAL SPACE</text>
+    <text x="50" y="181" font-family="Georgia,'Times New Roman',serif" font-size="105" letter-spacing="-5" fill="#392A2C">Momiji<tspan fill="#A63F43">.</tspan></text>
+    <text x="57" y="229" font-size="25" fill="#776062">AI companions, tools &amp; little worlds.</text>
+    <g font-size="12" letter-spacing="1.2" fill="#A63F43">
+      <rect x="56" y="276" width="142" height="31" rx="15.5" fill="#F2E6DC" stroke="#DBCBC0"/>
+      <text x="127" y="296" text-anchor="middle">AI COMPANIONS</text>
+      <rect x="208" y="276" width="151" height="31" rx="15.5" fill="#F2E6DC" stroke="#DBCBC0"/>
+      <text x="283.5" y="296" text-anchor="middle">VISUAL NOVELS</text>
+      <rect x="369" y="276" width="138" height="31" rx="15.5" fill="#F2E6DC" stroke="#DBCBC0"/>
+      <text x="438" y="296" text-anchor="middle">CREATIVE TOOLS</text>
+    </g>
+  </g>
+</g>
+</svg>
