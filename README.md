@@ -7,7 +7,7 @@
 <div align="center">
   <h3>把想法写成代码，把陪伴带进日常。</h3>
   <p>🐱 &nbsp; <b>Working for the <a href="https://github.com/Project-N-E-K-O/N.E.K.O">N.E.K.O. Project</a></b></p>
-  <p>你好，我是 <b>Momiji / 紅葉</b>。围绕 N.E.K.O. 生态，探索 AI 陪伴、视觉小说与创意工具。</p>
+  <p> <b>Momiji / 紅葉</b>。围绕 N.E.K.O. 生态，探索 AI 陪伴、视觉小说与创意工具。</p>
   <p><a href="#projects">探索项目</a> &nbsp; / &nbsp; <a href="#toolbox">技术栈</a> &nbsp; / &nbsp; <a href="https://github.com/MomiJiSan?tab=repositories">所有仓库 ↗</a></p>
 </div>
 
