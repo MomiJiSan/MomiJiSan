@@ -94,6 +94,27 @@
 <br>
 <br>
 
+#### 连续贡献
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=MomiJiSan&amp;hide_border=true&amp;border_radius=16&amp;background=191A22&amp;ring=FFAA8B&amp;fire=E37464&amp;stroke=4C3642&amp;currStreakNum=FFF0E1&amp;sideNums=FFF0E1&amp;currStreakLabel=FFAA8B&amp;sideLabels=CCAFAD&amp;dates=CCAFAD&amp;locale=zh_Hans&amp;card_width=760&amp;disable_animations=true&amp;timezone=Asia%2FShanghai">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=MomiJiSan&amp;hide_border=true&amp;border_radius=16&amp;background=FBF6EF&amp;ring=A63F43&amp;fire=E37464&amp;stroke=DBCBC0&amp;currStreakNum=392A2C&amp;sideNums=392A2C&amp;currStreakLabel=A63F43&amp;sideLabels=776062&amp;dates=776062&amp;locale=zh_Hans&amp;card_width=760&amp;disable_animations=true&amp;timezone=Asia%2FShanghai">
+  <img src="https://streak-stats.demolab.com/?user=MomiJiSan&amp;hide_border=true&amp;border_radius=16&amp;background=FBF6EF&amp;ring=A63F43&amp;fire=E37464&amp;stroke=DBCBC0&amp;currStreakNum=392A2C&amp;sideNums=392A2C&amp;currStreakLabel=A63F43&amp;sideLabels=776062&amp;dates=776062&amp;locale=zh_Hans&amp;card_width=760&amp;disable_animations=true&amp;timezone=Asia%2FShanghai" alt="MomiJiSan 的连续贡献：合计贡献、当前连续天数与最长纪录" width="760">
+</picture>
+
+<br>
+
+#### 最近 31 天的活动
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/activity-light.svg">
+  <img src="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/activity-light.svg" alt="MomiJiSan 最近 31 天的每日 GitHub 贡献曲线" width="760">
+</picture>
+
+<br>
+<br>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/footer-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/footer-light.svg">
