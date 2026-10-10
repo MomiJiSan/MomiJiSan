@@ -4,7 +4,7 @@
 </picture>
 
 <p align="center">
-  为 <a href="https://github.com/Project-N-E-K-O/N.E.K.O">N.E.K.O.</a> 写一点陪伴与小工具。
+  Work For <a href="https://github.com/Project-N-E-K-O/N.E.K.O">N.E.K.O.</a> 。
 </p>
 <p align="center">
   <code>Python</code> &nbsp; <code>C++</code> &nbsp; <code>TypeScript</code> &nbsp; <code>JavaScript</code>
