@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="140" viewBox="0 0 800 140" role="img" aria-labelledby="title desc">
+<title id="title">Momiji</title>
+<desc id="desc">AI companions and little tools, in soft blue.</desc>
+<rect width="800" height="140" rx="16" fill="#111E2D"/>
+<g fill="none" stroke="#A2CFF0" opacity=".18">
+  <circle cx="723" cy="70" r="43"/>
+  <circle cx="723" cy="70" r="29"/>
+</g>
+<circle cx="723" cy="70" r="8" fill="#A2CFF0" opacity=".38"/>
+<g font-family="'Segoe UI',Arial,sans-serif">
+  <text x="36" y="66" font-size="36" font-weight="600" letter-spacing="-1" fill="#E8F4FE">Momiji<tspan fill="#A2CFF0">.</tspan></text>
+  <text x="38" y="95" font-size="14" fill="#AAC3D9">AI companions &amp; little tools.</text>
+</g>
+</svg>

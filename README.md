@@ -1,122 +1,58 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/hero-light.svg">
-  <img src="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/hero-light.svg" alt="Momiji · 紅葉 — AI companions, tools &amp; little worlds." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/header-dark.svg">
+  <img src="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/header-light.svg" alt="Momiji · AI companions &amp; little tools." width="100%">
 </picture>
 
-<div align="center">
-  <h3>把想法写成代码，把陪伴带进日常。</h3>
-  <p>🐱 &nbsp; <b>Working for the <a href="https://github.com/Project-N-E-K-O/N.E.K.O">N.E.K.O. Project</a></b></p>
-  <p> <b>Momiji / 紅葉</b></p>
-  <p><a href="#projects">探索项目</a> &nbsp; / &nbsp; <a href="#toolbox">技术栈</a> &nbsp; / &nbsp; <a href="#stats">GitHub Stats</a> &nbsp; / &nbsp; <a href="https://github.com/MomiJiSan?tab=repositories">所有仓库 ↗</a></p>
-</div>
+<p align="center">
+  为 <a href="https://github.com/Project-N-E-K-O/N.E.K.O">N.E.K.O.</a> 写一点陪伴与小工具。
+</p>
+<p align="center">
+  <code>Python</code> &nbsp; <code>C++</code> &nbsp; <code>TypeScript</code> &nbsp; <code>JavaScript</code>
+</p>
 
-<br>
-
-### 01 &nbsp; / &nbsp; 关于我
-
-喜欢把灵感做成可以运行、可以交互的小作品，让工具更顺手，让故事多一点可能。
-
-- **陪伴** &nbsp; 让 AI 的对话、感知与日常交互连接起来。
-- **故事** &nbsp; 探索视觉小说与 AI 角色相遇的体验。
-- **工具** &nbsp; 将重复的操作变成更自然的工作流。
-
-<br>
-
-<a name="projects"></a>
-
-### 02 &nbsp; / &nbsp; 项目花园
-
-一些围绕陪伴、学习和故事生长的小项目。
+### Projects
 
 <table>
 <tr>
-<td width="50%" valign="top">
-  <h3>📚 &nbsp; Study Companion</h3>
-  <p>猫娘伴学插件，让学习多一个陪伴。</p>
-  <p>OCR · 辅导 · 文档分析<br>知识图谱 · 记忆卡组</p>
-  <p><code>Python</code> &nbsp; <code>N.E.K.O. Plugin</code></p>
-  <a href="https://github.com/MomiJiSan/n.e.k.o_plugin_study_companion"><b>查看项目 ↗</b></a>
+<td width="50%">
+  <a href="https://github.com/MomiJiSan/n.e.k.o_plugin_study_companion"><b>Study Companion</b></a><br>
+  <sub>猫娘伴学，让学习多一个陪伴。</sub>
 </td>
-<td width="50%" valign="top">
-  <h3>🎮 &nbsp; Galgame Companion</h3>
-  <p>让视觉小说与 AI 陪伴体验相遇。</p>
-  <p>游戏联动<br>N.E.K.O. 陪伴插件</p>
-  <p><code>Python</code> &nbsp; <code>Visual Novel</code></p>
-  <a href="https://github.com/MomiJiSan/n.e.k.o_plugin_galgame_plugin"><b>查看项目 ↗</b></a>
+<td width="50%">
+  <a href="https://github.com/MomiJiSan/NekoTextractor"><b>NekoTextractor</b></a><br>
+  <sub>面向视觉小说的文本提取工具。</sub>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-  <h3>🛠️ &nbsp; NekoTextractor</h3>
-  <p>面向视觉小说 AI 陪伴的文本提取工具。</p>
-  <p>基于 Textractor<br>现代界面 · 多语言切换 · 进程管理</p>
-  <p><code>C++</code> &nbsp; <code>Developer Tool</code></p>
-  <a href="https://github.com/MomiJiSan/NekoTextractor"><b>查看项目 ↗</b></a>
+<td width="50%">
+  <a href="https://github.com/MomiJiSan/n.e.k.o_plugin_galgame_plugin"><b>Galgame Companion</b></a><br>
+  <sub>让 AI 陪你走进故事。</sub>
 </td>
-<td width="50%" valign="top">
-  <h3>💌 &nbsp; 从心开始</h3>
-  <p>在故事与陪伴之间搭一座桥。</p>
-  <p>《从心开始》× N.E.K.O.<br>受控对话桥接插件</p>
-  <p><code>Python</code> &nbsp; <code>Dialogue Bridge</code></p>
-  <a href="https://github.com/MomiJiSan/n.e.k.o_plugin_from_the_heart"><b>查看项目 ↗</b></a>
+<td width="50%">
+  <a href="https://github.com/MomiJiSan/n.e.k.o_plugin_from_the_heart"><b>从心开始</b></a><br>
+  <sub>《从心开始》× N.E.K.O.</sub>
 </td>
 </tr>
 </table>
 
-<p>🐱 &nbsp; <b>N.E.K.O. 生态</b> &nbsp; · &nbsp; <a href="https://github.com/Project-N-E-K-O/N.E.K.O">上游项目</a> &nbsp; / &nbsp; <a href="https://github.com/MomiJiSan/N.E.K.O">我的 Fork</a></p>
+<p align="right"><sub><a href="https://github.com/MomiJiSan?tab=repositories">所有仓库 ↗</a></sub></p>
 
-<br>
+### GitHub
 
-<a name="toolbox"></a>
-
-### 03 &nbsp; / &nbsp; 常用语言
-
+<div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/stack-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/stack-light.svg">
-  <img src="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/stack-light.svg" alt="Python · C++ · TypeScript · JavaScript" width="760">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=MomiJiSan&amp;show_icons=true&amp;hide_rank=true&amp;hide_border=true&amp;border_radius=14&amp;title_color=A2CFF0&amp;icon_color=A2CFF0&amp;text_color=AAC3D9&amp;bg_color=111E2D&amp;locale=cn&amp;card_width=380">
+  <img src="https://github-stats-extended.vercel.app/api?username=MomiJiSan&amp;show_icons=true&amp;hide_rank=true&amp;hide_border=true&amp;border_radius=14&amp;title_color=518BB7&amp;icon_color=518BB7&amp;text_color=526F86&amp;bg_color=F0F8FF&amp;locale=cn&amp;card_width=380" alt="MomiJiSan 的 GitHub 统计" width="49%">
 </picture>
-
-<br>
-<br>
-
-<a name="stats"></a>
-
-### 04 &nbsp; / &nbsp; GitHub Stats
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=MomiJiSan&amp;show_icons=true&amp;hide_border=true&amp;border_radius=16&amp;title_color=FFAA8B&amp;icon_color=FFAA8B&amp;text_color=CCAFAD&amp;bg_color=191A22&amp;locale=cn&amp;card_width=760">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=MomiJiSan&amp;show_icons=true&amp;hide_border=true&amp;border_radius=16&amp;title_color=A63F43&amp;icon_color=A63F43&amp;text_color=776062&amp;bg_color=FBF6EF&amp;locale=cn&amp;card_width=760">
-  <img src="https://github-stats-extended.vercel.app/api?username=MomiJiSan&amp;show_icons=true&amp;hide_border=true&amp;border_radius=16&amp;title_color=A63F43&amp;icon_color=A63F43&amp;text_color=776062&amp;bg_color=FBF6EF&amp;locale=cn&amp;card_width=760" alt="MomiJiSan 的 GitHub 统计：Stars、提交、Pull Requests、Issues 与贡献项目" width="760">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=MomiJiSan&amp;hide_border=true&amp;border_radius=14&amp;background=111E2D&amp;ring=A2CFF0&amp;fire=A2CFF0&amp;stroke=294258&amp;currStreakNum=E8F4FE&amp;sideNums=E8F4FE&amp;currStreakLabel=A2CFF0&amp;sideLabels=AAC3D9&amp;dates=AAC3D9&amp;locale=zh_Hans&amp;card_width=380&amp;disable_animations=true&amp;timezone=Asia%2FShanghai">
+  <img src="https://streak-stats.demolab.com/?user=MomiJiSan&amp;hide_border=true&amp;border_radius=14&amp;background=F0F8FF&amp;ring=518BB7&amp;fire=518BB7&amp;stroke=D8E9F5&amp;currStreakNum=2E506A&amp;sideNums=2E506A&amp;currStreakLabel=518BB7&amp;sideLabels=526F86&amp;dates=526F86&amp;locale=zh_Hans&amp;card_width=380&amp;disable_animations=true&amp;timezone=Asia%2FShanghai" alt="MomiJiSan 的连续贡献统计" width="49%">
 </picture>
+</div>
 
 <br>
-<br>
-
-#### 连续贡献
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=MomiJiSan&amp;hide_border=true&amp;border_radius=16&amp;background=191A22&amp;ring=FFAA8B&amp;fire=E37464&amp;stroke=4C3642&amp;currStreakNum=FFF0E1&amp;sideNums=FFF0E1&amp;currStreakLabel=FFAA8B&amp;sideLabels=CCAFAD&amp;dates=CCAFAD&amp;locale=zh_Hans&amp;card_width=760&amp;disable_animations=true&amp;timezone=Asia%2FShanghai">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=MomiJiSan&amp;hide_border=true&amp;border_radius=16&amp;background=FBF6EF&amp;ring=A63F43&amp;fire=E37464&amp;stroke=DBCBC0&amp;currStreakNum=392A2C&amp;sideNums=392A2C&amp;currStreakLabel=A63F43&amp;sideLabels=776062&amp;dates=776062&amp;locale=zh_Hans&amp;card_width=760&amp;disable_animations=true&amp;timezone=Asia%2FShanghai">
-  <img src="https://streak-stats.demolab.com/?user=MomiJiSan&amp;hide_border=true&amp;border_radius=16&amp;background=FBF6EF&amp;ring=A63F43&amp;fire=E37464&amp;stroke=DBCBC0&amp;currStreakNum=392A2C&amp;sideNums=392A2C&amp;currStreakLabel=A63F43&amp;sideLabels=776062&amp;dates=776062&amp;locale=zh_Hans&amp;card_width=760&amp;disable_animations=true&amp;timezone=Asia%2FShanghai" alt="MomiJiSan 的连续贡献：合计贡献、当前连续天数与最长纪录" width="760">
-</picture>
-
-<br>
-
-#### 最近 31 天的活动
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/activity-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/activity-light.svg">
-  <img src="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/activity-light.svg" alt="MomiJiSan 最近 31 天的每日 GitHub 贡献曲线" width="760">
-</picture>
-
-<br>
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/footer-light.svg">
-  <img src="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/footer-light.svg" alt="一片红叶，一点灵感，慢慢构建。" width="100%">
+  <img src="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/activity-light.svg" alt="最近 31 天的 GitHub 活动" width="100%">
 </picture>

@@ -35,12 +35,12 @@ const total = counts.reduce((sum, count) => sum + count, 0);
 const step = Math.max(1, Math.ceil(Math.max(...counts) / 4));
 const ceiling = step * 4;
 const x = i => 54 + i * 682 / 30;
-const y = count => 236 - count * 148 / ceiling;
+const y = count => 196 - count * 108 / ceiling;
 const points = counts.map((count, i) => `${x(i).toFixed(2)},${y(count).toFixed(2)}`).join(' ');
 const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' }[c]));
 const themes = {
-  light: { bg: '#FBF6EF', text: '#776062', accent: '#A63F43', grid: '#DBCBC0' },
-  dark: { bg: '#191A22', text: '#CCAFAD', accent: '#FFAA8B', grid: '#4C3642' },
+  light: { bg: '#F0F8FF', text: '#526F86', accent: '#518BB7', grid: '#D8E9F5' },
+  dark: { bg: '#111E2D', text: '#AAC3D9', accent: '#A2CFF0', grid: '#294258' },
 };
 await mkdir('assets', { recursive: true });
 for (const [name, theme] of Object.entries(themes)) {
@@ -48,20 +48,19 @@ for (const [name, theme] of Object.entries(themes)) {
     const value = i * step;
     return `<line x1="54" y1="${y(value)}" x2="736" y2="${y(value)}" stroke="${theme.grid}" opacity=".6"/><text x="43" y="${y(value) + 4}" text-anchor="end" font-size="11">${value}</text>`;
   }).join('');
-  const labels = [0, 5, 10, 15, 20, 25, 30].map(i => `<text x="${x(i)}" y="257" text-anchor="middle" font-size="11">${dates[i].slice(5).replace('-', '/')}</text>`).join('');
-  const dots = counts.map((count, i) => `<circle cx="${x(i)}" cy="${y(count)}" r="3" fill="#E37464"><title>${dates[i]}: ${count} contributions</title></circle>`).join('');
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+  const labels = [0, 5, 10, 15, 20, 25, 30].map(i => `<text x="${x(i)}" y="217" text-anchor="middle" font-size="11">${dates[i].slice(5).replace('-', '/')}</text>`).join('');
+  const dots = counts.map((count, i) => `<circle cx="${x(i)}" cy="${y(count)}" r="3" fill="#82B9DD"><title>${dates[i]}: ${count} contributions</title></circle>`).join('');
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="760" height="240" viewBox="0 0 760 240" role="img" aria-labelledby="title desc">
 <title id="title">${escape(username)} · 最近 31 天的贡献</title>
 <desc id="desc">${dates[0]} 至 ${today}，共 ${total} 次 GitHub 贡献。每日贡献：${counts.join(', ')}。</desc>
-<rect width="760" height="300" rx="16" fill="${theme.bg}"/>
+<rect width="760" height="240" rx="16" fill="${theme.bg}"/>
 <g font-family="'Segoe UI',Arial,sans-serif" fill="${theme.text}">
-<text x="24" y="35" font-size="18" font-weight="600" fill="${theme.accent}">最近 31 天的贡献</text>
+<text x="24" y="35" font-size="18" font-weight="600" fill="${theme.accent}">最近 31 天</text>
 <text x="24" y="59" font-size="12">${dates[0]} — ${today} · ${total} contributions</text>
 ${grid}
-<polygon points="54,236 ${points} 736,236" fill="#E37464" opacity=".13"/>
+<polygon points="54,196 ${points} 736,196" fill="#82B9DD" opacity=".13"/>
 <polyline points="${points}" fill="none" stroke="${theme.accent}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
 ${dots}${labels}
-<text x="736" y="282" text-anchor="end" font-size="10">GitHub contributions · Asia/Shanghai</text>
 </g>
 </svg>\n`;
   await writeFile(`assets/activity-${name}.svg`, svg);
