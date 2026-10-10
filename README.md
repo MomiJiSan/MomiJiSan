@@ -8,7 +8,7 @@
   <h3>把想法写成代码，把陪伴带进日常。</h3>
   <p>🐱 &nbsp; <b>Working for the <a href="https://github.com/Project-N-E-K-O/N.E.K.O">N.E.K.O. Project</a></b></p>
   <p> <b>Momiji / 紅葉</b></p>
-  <p><a href="#projects">探索项目</a> &nbsp; / &nbsp; <a href="#toolbox">技术栈</a> &nbsp; / &nbsp; <a href="https://github.com/MomiJiSan?tab=repositories">所有仓库 ↗</a></p>
+  <p><a href="#projects">探索项目</a> &nbsp; / &nbsp; <a href="#toolbox">技术栈</a> &nbsp; / &nbsp; <a href="#stats">GitHub Stats</a> &nbsp; / &nbsp; <a href="https://github.com/MomiJiSan?tab=repositories">所有仓库 ↗</a></p>
 </div>
 
 <br>
@@ -76,6 +76,19 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/stack-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/stack-light.svg">
   <img src="https://raw.githubusercontent.com/MomiJiSan/MomiJiSan/main/assets/stack-light.svg" alt="Python · C++ · TypeScript · JavaScript" width="760">
+</picture>
+
+<br>
+<br>
+
+<a name="stats"></a>
+
+### 04 &nbsp; / &nbsp; GitHub Stats
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=MomiJiSan&amp;show_icons=true&amp;hide_border=true&amp;border_radius=16&amp;title_color=FFAA8B&amp;icon_color=FFAA8B&amp;text_color=CCAFAD&amp;bg_color=191A22&amp;locale=cn&amp;card_width=760">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=MomiJiSan&amp;show_icons=true&amp;hide_border=true&amp;border_radius=16&amp;title_color=A63F43&amp;icon_color=A63F43&amp;text_color=776062&amp;bg_color=FBF6EF&amp;locale=cn&amp;card_width=760">
+  <img src="https://github-stats-extended.vercel.app/api?username=MomiJiSan&amp;show_icons=true&amp;hide_border=true&amp;border_radius=16&amp;title_color=A63F43&amp;icon_color=A63F43&amp;text_color=776062&amp;bg_color=FBF6EF&amp;locale=cn&amp;card_width=760" alt="MomiJiSan 的 GitHub 统计：Stars、提交、Pull Requests、Issues 与贡献项目" width="760">
 </picture>
 
 <br>
